@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SocketIOmanager</string>
+    <string name="uri">URI</string>
+</resources>
