@@ -31,7 +31,7 @@ public class Manager {
         }
     }
 
-    public void setMessageListener(String eventName, Emitter.Listener emitterListener) {
+    public void setEventListener(String eventName, Emitter.Listener emitterListener) {
         mSocket.on(eventName, emitterListener);
         listeners.put(eventName, emitterListener);
     }
